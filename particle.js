@@ -6,7 +6,7 @@ function Particle(x, y, rocket, heartRocket, fx, fy) {
     this.heartRocket = heartRocket;
     this.fx = fx;
     this.fy = fy;
-    this.lifespan = 255;
+    this.lifespan = 125;
     if (this.rocket) {
         this.vel = createVector(0, random(-1.7, -3.2));
         this.acc = createVector(0, random(minBoost, maxBoost));
