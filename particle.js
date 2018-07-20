@@ -1,12 +1,12 @@
 function Particle(x, y, rocket, heartRocket, fx, fy) {
-    var minBoost = -2;
-    var maxBoost = -8;
+    var minBoost = -11;
+    var maxBoost = -13.5;
     this.pos = createVector(x, y);
     this.rocket = rocket;
     this.heartRocket = heartRocket;
     this.fx = fx;
     this.fy = fy;
-    this.lifespan = 125;
+    this.lifespan = 255;
     if (this.rocket) {
         this.vel = createVector(0, random(-1.7, -3.2));
         this.acc = createVector(0, random(minBoost, maxBoost));
