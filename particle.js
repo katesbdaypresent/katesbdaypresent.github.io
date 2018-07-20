@@ -1,6 +1,6 @@
 function Particle(x, y, rocket, heartRocket, fx, fy) {
-    var minBoost = -11;
-    var maxBoost = -13.5;
+    var minBoost = -5;
+    var maxBoost = -11;
     this.pos = createVector(x, y);
     this.rocket = rocket;
     this.heartRocket = heartRocket;
