@@ -32,7 +32,7 @@ function draw() {
 	}
 	stroke(255,255,255);
 	fill(255,255,255);
-	textSize(90);
+	textSize(50);
 	textAlign(CENTER);
 	textStyle(BOLD);
 	text("Happy Birthday Katie!!!", window.innerWidth / 2, window.innerHeight / 2);
